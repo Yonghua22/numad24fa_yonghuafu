@@ -25,8 +25,9 @@
         android:id="@+id/button_about"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="About"
-        android:textAllCaps="false" />
+        android:text="About Me"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"/>
 
     <!-- Quic Calc Button -->
     <Button
@@ -34,5 +35,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Quic Calc" />
+
+    <Button
+        android:id="@+id/btn_contacts_collector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacts Collector" />
 
 </LinearLayout>
